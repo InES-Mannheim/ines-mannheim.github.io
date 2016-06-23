@@ -7,9 +7,10 @@ title: SPA-CORE
 email: your-email@domain.com
 author: Your Name
 description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
+  Coming from the original vision about the SPA, the view slightly shifted towards more generality. While the main
+  focus for the first development phases are processes, the goal broadend to also support other domains. Thereby, three
+  Use Cases are the current implementation drivers; namely Semantic Process integration over format and tool borders,
+  Analytics like Process Mining and Process Optimization by combining usage data with process models.
 copyright: 'Copyright &copy; 2016 Institut für Enterprise Systems, Universität Mannheim'
 credits: 'Credits: Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
