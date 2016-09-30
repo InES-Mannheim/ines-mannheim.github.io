@@ -1,75 +1,182 @@
-<section class="jumbotron">
+<!-- Header Image -->
+<header class="header-image">
+    <div class="headline">
+        <div class="container">
+            <h1>Business Process Mining in the cloud</h1>
+            <h2>A master team project at the University of Mannheim in collaboration with Movilizer</h2>
+            <a class="btn btn-primary" href="http://sneek.informatik.uni-mannheim.de:3000/" role="button">Try our Application now</a>
+        </div>
+    </div>
+</header>
+
+<hr class="featurette-divider">
+
+<!-- Sub Navigation -->
+<section id="product-navi">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#product-description">Description</a></li>
+                <li><a href="#product-features">Features</a></li>
+                <li><a href="#product-getstarted">Getting Started</a></li>
+                <li><a href="#product-exampledata">Example Data</a></li>
+
+            </ul>
+        </nav>
+    </div>
+</section>
+<!-- Divider -->
+
+<!-- Divider -->
+<hr class="featurette-divider">
+<section class="divider">
     <div class="container">
         <div class="row text-center">
-            <h1><i>Movilizer</i></h1>
-            <h3>The Next Best Thing</h3>
+            <h2>Description</h2>
         </div>
+    </div>
+</section>
+<!-- Product Description -->
+<section id="product-description" class="">
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../img/movilizer/start2.jpg">
+            <h2 class="featurette-heading">Process Mining <br>
+                <span class="text-muted">In The Cloud</span>
+            </h2>
+            <p class="lead">This tool is developed as a part of a Master Team Project at the University of Mannheim with collaboration of HoneyWell's Movilizer Mobile Enterprise Application Platform for developing mobile business models. The tool allows you to import data with several formats including: BPMN, XES and Movilizer's Movelet. You can visualize the process model as a whole or you can inspect chunks of it through the Variants view. The colouring of nodes as well as the thickness and labeling of the edges allows you to identify critical activities and path in a variant. You can also filter the process with some KPIs including: Processing Time and Process Steps.</p>
+        </div>
+    </div>
+</section>
+<!-- Divider -->
+<hr class="featurette-divider">
+<section class="divider">
+    <div class="container">
         <div class="row text-center">
-            <a class="btn btn-primary" href="#" role="button">Go to App</a>
+            <h2>Features</h2>
+        </div>
+    </div>
+</section>
+<!-- Product Features -->
+<section id="product-features" class="">
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-left" src="../img/movilizer/archi.jpg">
+            <h2 class="featurette-heading">Powerful architecture <br>
+                <span class="text-muted">built based on SPA</span>
+            </h2>
+            <p class="lead">The web application is developed to harness the power of SPA – Smart Process API.
+                The main aim to use SPA was because it helped translate the several formats with which processes are expressed and
+                created a mapping between these formats; thus, integrating them. SPA acts as our database where all the input files,
+                after preprocessing (if needed), are put into. The SPA uses the generated BPMN and XES files needed for our tool
+                visualization and converts them to RDF Models.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../img/movilizer/import.png">
+            <h2 class="featurette-heading">Data Import <br>
+                <span class="text-muted">With Multiple Formats</span>
+            </h2>
+            <p class="lead">Our tool provides you with the flexibility of importing your own processes in several formats.
+                Whether you develop a Movelet in the Movilizer Cloud or you want to import your own process model in BPMN or XES format,
+                Movilizer web application handles different formats to make your analysis easier.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-left" src="../img/movilizer/ProcessVsVariant.png">
+            <h2 class="featurette-heading">Flexible Process Visualization <br>
+                <span class="text-muted">Process versus Variant</span>
+            </h2>
+            <p class="lead">With the flexibility to switch between complete Process Model view and Variant view of your process,
+                the tool gives you the opportunity to explore fragments of your process and analyze them carefully.
+                You can also select specific variant of the process to inspect critical paths and activities within a unique path of your process.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../img/movilizer/stats2.png">
+            <h2 class="featurette-heading">Performance Analysis <br>
+                <span class="text-muted">With KPIs Filtering</span>
+            </h2>
+            <p class="lead">From Processing Time to Process Steps, you can use the different KPIs to filter your process.
+                Using these KPIs to investigate and assess your process, you can better understand your process and detect bottlenecks in the process.</p>
         </div>
     </div>
 </section>
 
-<section class="container">
-    <div class="row">
-        <figure class="col-sm-1"></figure>
-        <figure class="col-sm-4 text-left">
-            <h2>Powerful architecture built based on SPA</h2>
-            <p style="text-align:justify">
-                The Movilizer web application is developed to harness the power of SPA – Smart Process API, a vocabulary
-                that enables the management of semantic descriptions of process or data models and their engines. SPA
-                consumes different interfaces and formats to map between their concepts and integrates them.
-            </p>
-        </figure>
-        <figure class="col-sm-2"></figure>
-        <figure class="col-sm-4">
-            <img src="../img/movilizer/archi.jpg" height="280" width="280">
-        </figure>
-        <figure class="col-sm-1"></figure>
-    </div>
 
-    <div class="row">
-        <figure class="col-sm-1"></figure>
-        <figure class="col-sm-4">
-            <img src="../img/movilizer/import.jpg" height="280" width="260">
-        </figure>
-        <figure class="col-sm-2"></figure>
-        <figure class="col-sm-4 text-left">
-            <h2>Import your own data</h2>
-            <p style="text-align:justify">The Movilizer web application provides you with the flexibility of importing
-                your own processes in several formats. Whether you develop a Movelet in the Movilizer Cloud or you want
-                to import your own process model in BPMN or XES format, Movilizer web application handles different
-                formats to make your analysis easier.</p>
-        </figure>
-        <figure class="col-sm-1"></figure>
+<!-- Divider -->
+<hr class="featurette-divider">
+<section class="divider">
+    <div class="container">
+        <div class="row text-center">
+            <h2>Getting Started</h2>
+        </div>
     </div>
+</section>
 
-    <div class="row">
-        <figure class="col-sm-1"></figure>
-        <figure class="col-sm-4 text-left">
-            <h2>Flexible Process Visualization</h2>
-            <p style="text-align:justify">With the flexibility to switch between whole view and variant view of your
-                process, Movilizer web application gives you the opportunity to explore fragments of your process and
-                analyze them carefully. You can also freely scroll and zoom within your process.</p>
-        </figure>
-        <figure class="col-sm-2"></figure>
-        <figure class="col-sm-4">
-            <img src="../img/movilizer/visualization.jpg" height="280" width="260">
-        </figure>
-        <figure class="col-sm-1"></figure>
+<!-- Getting Started -->
+<section id="product-getstarted" class="">
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <!-- <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <video class="featurette-image img-circle img-responsive pull-right" width="520" height="440" controls="controls">
+                           <source src="../movilizer/GettingStarted.mp4" type="video/mp4"/>
+             </video> -->
+            <!--<video class="featurette-image img-circle img-responsive pull-right" src="../movilizer/GettingStarted.mp4" width="620" height="540" preload controls></video>-->
+            <h2 class="featurette-heading">Getting Started <br>
+                <span class="text-muted">Has never been simpler</span>
+                <!--<video controls="controls" width="500" height="500" name="Video Name" src="../movilizer/GettingStarted.mov"></video>-->
+
+            </h2>
+            <p class="lead"> 1. Connect to the University of Mannheim Network <br> 2. Visit <a href="http://sneek.informatik.uni-mannheim.de:3000/"> our Process Mining Cloud App</a> <br> 3. Open the dashboard and upload our <a href="#product-exampledata">example data</a> or your own processes
+                <br> 4. Select the desired process and navigate through our tool <br> 5. Visit our <a href="http://sneek.informatik.uni-mannheim.de:3000/guide"> our how-to-guide</a> for more details on how to use our application</p>
+        </div>
     </div>
+</section>
 
-    <div class="row">
-        <figure class="col-sm-1"></figure>
-        <figure class="col-sm-4">
-            <img src="../img/movilizer/filter.jpg" height="280" width="260">
-        </figure>
-        <figure class="col-sm-2"></figure>
-        <figure class="col-sm-4 text-left">
-            <h2>Filter your data</h2>
-            <p style="text-align:justify">Using several KPIs to investigate and assess your process, Movilizer web
-                application allows you to apply several KPI to analyze and investigate your process.</p>
-        </figure>
-        <figure class="col-sm-1"></figure>
+<!-- Divider -->
+<hr class="featurette-divider">
+<section class="divider">
+    <div class="container">
+        <div class="row text-center">
+            <h2>Example Data</h2>
+        </div>
+    </div>
+</section>
+<!-- Example Data -->
+<section align="center" id="product-exampledata">
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <p class="lead">Download BPMN & XES files to test our tool</p>
+            <a href="../img/movilizer/M_PMORDER.zip" download>
+                <img border="0" src="../img/movilizer/download.png" alt="BPMN & XES">
+            </a>
+        </div>
     </div>
 </section>
