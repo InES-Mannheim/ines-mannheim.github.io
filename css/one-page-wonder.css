@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -24,23 +24,81 @@ body {
 }
 
 .headline h1 {
-    font-size: 100px;
+    font-size: 40px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+    font-family: 'Work Sans', sans-serif;
 }
 
 .headline h2 {
-    font-size: 77px;
+    font-size: 20px;
+    padding: 10px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+    font-family: 'Work Sans', sans-serif;
+
 }
 
+.divider {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-color: #f8f8f8;
+
+}
+
+<!-- Sub navibar -->
+#product-navi ul {
+    
+    overflow: hidden;
+    list-style: none outside none;
+    text-align: center
+    margin: 0;
+    padding: 0;
+}
+
+#product-navi li {
+	margin: 0 70px;
+    float: left;
+    display: inline;
+    list-style: none;
+    border: 1px solid #e7e7e7;
+
+}
+
+#product-navi li a {
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform:uppercase;
+    text-align: center;
+    display: block;
+
+}
+
+#product-navi li a:hover:not(.active) {
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+
+}
+
+#product-navi li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+ <!-- End Sub navibar -->
+ 
+ 
+product-exampledata
+ 
 .featurette-divider {
     margin: 80px 0;
 }
 
 .featurette {
     overflow: hidden;
+    text-align: justify;
 }
 
 .featurette-image.pull-left {
@@ -52,7 +110,7 @@ body {
 }
 
 .featurette-heading {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 footer {
