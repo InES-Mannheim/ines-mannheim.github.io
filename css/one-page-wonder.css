@@ -48,12 +48,12 @@ body {
 
 }
 
-<!-- Sub navibar -->
+/* Sub navibar */
 #product-navi ul {
     
     overflow: hidden;
     list-style: none outside none;
-    text-align: center
+    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -87,10 +87,7 @@ body {
     color: white;
     background-color: #4CAF50;
 }
- <!-- End Sub navibar -->
- 
- 
-product-exampledata
+/* End Sub navibar */
  
 .featurette-divider {
     margin: 80px 0;
